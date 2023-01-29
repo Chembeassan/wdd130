@@ -7,26 +7,31 @@ body {
     background-color: #fcfbfb; 
 }
 header {
+    
     background-color:rgba(20,30,13, .7);
 }
 
-#background {
-    height: 725px;
+#background{
+    height: 400px;
+    background-color: #df763d;
 }
 nav a:hover,.book:hover, .join:hover {
     background-color: orange;
     color: #1F2438;
 }   
 
-.book, .join,
-#background,
-.msg,
-footer {
+.book, .join{
     background-color: #1F2438;
     color: white;
     text-decoration: none;
 }
-
+.msg, footer{
+    
+    background-color: seagreen;
+}
+footer{
+padding-bottom: 50px;    
+}
 #hero-img{
     width: 100%;
 }
