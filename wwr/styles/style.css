@@ -3,34 +3,54 @@
     margin: 0 auto;
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 body {
+    font-size: 22px;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: Geneva, Verdana, sans-serif;
     background-color: #fcfbfb; 
 }
 header {
     
     background-color:rgba(20,30,13, .7);
 }
-
+#logo_link{
+    padding: 5px;
+}
 #background{
     height: 400px;
     background-color: #df763d;
 }
+
 nav a:hover,.book:hover, .join:hover {
     background-color: orange;
     color: #1F2438;
 }   
 
 .book, .join{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
     background-color: #1F2438;
     color: white;
     text-decoration: none;
 }
-.msg, footer{
-    
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
     background-color: seagreen;
 }
 footer{
-padding-bottom: 50px;    
+    padding-top: 15px;
+    margin-top: 200px;
+    padding: 25px 50px;
+    padding-bottom: 20px;
+    background-color: seagreen;    
 }
 #hero-img{
     width: 100%;
@@ -39,9 +59,11 @@ padding-bottom: 50px;
     width: 80px;
 }
 .icon{
+    padding-top: 10px;
     align-self: baseline;
 }
 nav a {
+    padding: 35px;
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -64,5 +86,30 @@ footer p a:hover {
 .social{
     width: 400px;
     display: flex;
+    padding-top: 15px;
     justify-content: left;
+}
+
+.home_title{
+    margin-top: 10px;
+    font-family: 'Itim', cursive;
+    font-size: 2em;
+
+}
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+
+}
+.card-img{
+    border: 5px solid #1F2438;
+}
+.msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
+}
+.msg h2{
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    margin: 0;
 }
