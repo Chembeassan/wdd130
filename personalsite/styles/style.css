@@ -1,0 +1,333 @@
+/* Global styles */
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #f2c518;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Header section */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #f2c518;
+}
+
+/* Boddy section */
+#top-image{
+  width: 50%;
+}
+.container {
+  background-image: url('path/to/image.jpg'); /* set the background image */
+  background-size: cover; /* make the image cover the entire container */
+  padding: 50px; /* add some padding to the container */
+}
+
+#about {
+  max-width: 800px; /* set a maximum width for the section */
+  margin: 0 auto; /* center the section within the container */
+  background-image: url(images/.jpeg); /* add a semi-transparent white background to the section */
+  padding: 30px; /* add some padding to the section */
+  border-radius: 10px; /* add rounded corners to the section */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* add a subtle drop shadow to the section */
+  color: #333333; /* set the text color */
+  font-size: 18px; /* set the font size */
+  line-height: 1.5; /* set the line height */
+  background-color: #f8f8f8;
+}
+#skills-section {
+  background-color: #f8f8f8; /* set background color */
+  padding: 50px; /* add padding to create space around content */
+}
+
+#skills {
+  max-width: 800px; /* set maximum width of the section */
+  margin: 0 auto; /* center section horizontally */
+}
+
+#skills h2 {
+  text-align: center; /* center heading */
+  font-size: 2rem; /* increase font size */
+  margin-bottom: 30px; /* add space below heading */
+}
+
+#skills ul {
+  list-style: none; /* remove bullet points from list */
+  padding: 0; /* remove default padding from list */
+  margin: 0; /* remove default margin from list */
+}
+
+#skills li {
+  margin-bottom: 10px; /* add space between list items */
+}
+
+#skills li::before {
+  content: "\2022"; /* add bullet point before each list item */
+  font-size: 1.5rem; /* increase bullet point size */
+  color: #4CAF50; /* set bullet point color */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; /* move bullet point to the left to align with text */
+}
+
+
+
+
+/* style for the projects page */
+.projects {
+  margin: 50px 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* style for the section heading */
+.projects h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* style for the section description */
+.projects p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* style for the list of projects */
+.projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* style for each project item */
+.projects li {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+/* style for each project image */
+.projects li img {
+  border-radius: 10px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* style for each project title */
+.projects li h4 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* style for each project description */
+.projects li p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* style for the "View Project" button */
+.projects li button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.projects li button:hover {
+  background-color: #3e8e41;
+}
+
+/* style for the final section description */
+.projects p:last-child {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+
+/* Contact page */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#working-hours{
+  background-image: url(images/contact.png);
+}
+.contact-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input[type=text],
+.contact-form textarea {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 50%;
+}
+
+.contact-form input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contact-form input[type=submit]:hover {
+  background-color: #f2c518;
+  color: #333;
+}
+.social_icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.social_icons img {
+  width: 30px;
+  height: 30px;
+  }
+
+
+
+/* Footer section */
+footer {
+  background-color: #90BDDD;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Footer logo */
+.footer-logo img {
+  max-width: 100px;
+  height: auto;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+/* Footer navigation */
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav li {
+  margin: 0 20px;
+}
+
+.footer-nav a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-nav a:hover {
+  color: #f2c518;
+}
+
+/* Social media icons */
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons img {
+  max-width: 40px;
+  height: auto;
+  margin: 0 10px;
+}
+
+
+
+
+  @media (max-width: 768px) {
+    /* adjust styles for smaller screens */
+    #skills {
+      padding: 20px; /* decrease padding */
+    }
+    
+    #skills h2 {
+      font-size: 1.5rem; /* decrease font size */
+      margin-bottom: 20px; /* decrease space below heading */
+    }
+  }
+  
