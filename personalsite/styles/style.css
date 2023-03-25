@@ -64,26 +64,101 @@ nav a:hover {
 
 /* Boddy section */
 #top-image{
-  width: 50%;
+  width: 100%;
+  height: 100%;
 }
-.container {
-  background-image: url('path/to/image.jpg'); /* set the background image */
-  background-size: cover; /* make the image cover the entire container */
-  padding: 50px; /* add some padding to the container */
+.intro {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+.intro h2 {
+  color: #1A2C5B;
+}
+
+.intro ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* style for each working-hours item */
+.intro li {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+/* style for each working-hours image */
+.intro li img {
+  border-radius: 10px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* style for each working-hours title */
+.intro li h4 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* style for each working-hours description */
+.intro li p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* style for the "View " button */
+.intro li button {
+  background-color: #4CAF50;
+  border: none;
+  
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.intro li button:hover {
+  background-color: #3e8e41;
+}
+
+/* style for the final section description */
+.intro p:last-child {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+.intro button a:hover {
+  color: #f2c518;
+}
+
 
 #about {
   max-width: 800px; /* set a maximum width for the section */
   margin: 0 auto; /* center the section within the container */
-  background-image: url(images/.jpeg); /* add a semi-transparent white background to the section */
+  background-image: url("/personalsite/image/home-3.jpg"); /* add a semi-transparent white background to the section */
+  background-repeat: no-repeat;
   padding: 30px; /* add some padding to the section */
   border-radius: 10px; /* add rounded corners to the section */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* add a subtle drop shadow to the section */
+  background-color: #90BDDD;
+  background-size: cover; /* make the image cover the entire container */
   color: #333333; /* set the text color */
   font-size: 18px; /* set the font size */
   line-height: 1.5; /* set the line height */
-  background-color: #f8f8f8;
+
 }
+
+
 #skills-section {
   background-color: #f8f8f8; /* set background color */
   padding: 50px; /* add padding to create space around content */
@@ -133,6 +208,10 @@ nav a:hover {
 .projects h3 {
   font-size: 36px;
   margin-bottom: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
 }
 
 /* style for the section description */
@@ -213,8 +292,79 @@ nav a:hover {
   margin-top: 50px;
 }
 
-#working-hours{
-  background-image: url(images/contact.png);
+.working-hours {
+  background-image: url("/personalsite/images/contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.working-hours h2 {
+  color: #1A2C5B;
+}
+
+.working-hours ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* style for each working-hours item */
+.working-hours li {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+/* style for each working-hours image */
+.working-hours li img {
+  border-radius: 10px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* style for each working-hours title */
+.working-hours li h4 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* style for each working-hours description */
+.working-hours li p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* style for the "View " button */
+.working-hours li button {
+  background-color: #4CAF50;
+  border: none;
+  
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.working-hoursli button:hover {
+  background-color: #3e8e41;
+}
+
+/* style for the final section description */
+.working-hours p:last-child {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+.working-hours button a:hover {
+  color: #f2c518;
 }
 .contact-title {
   font-size: 36px;
