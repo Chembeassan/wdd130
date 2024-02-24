@@ -239,6 +239,22 @@ footer {
     #skills h2 {
       font-size: 1.5rem; /* decrease font size */
       margin-bottom: 20px; /* decrease space below heading */
+      .intro {
+        flex-direction: column; /* Stack elements vertically */
+      }
+      
+      .intro h1 {
+        font-size: 24px; /* Decrease font size */
+      }
+      
+      .intro p {
+        font-size: 16px; /* Decrease font size */
+      }
+      
+      .intro img {
+        width: 100%; /* Make the image fill the width of the container */
+        margin-top: 20px; /* Add some space between paragraph and image */
+      }
     }
   }
   
